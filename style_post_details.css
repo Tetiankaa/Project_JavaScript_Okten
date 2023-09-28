@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-image: url("images/photo1.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: #2a3229;
+}
+.main-heading{
+    font-size: 80px;
+    height: 10vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    color: #2a3229;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#post-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+#post-container h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #191e19;
+    background-color: rgba(204, 204, 204, 0.42);
+    width: 10.5vw;
+    border-radius: 20px;
+    border: 3px solid #0d100d;
+}
+
+.post-info{
+    width: 60vw;
+    background: rgba(189, 184, 184, 0.72);
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 60px;
+    border: 3px solid #0d100d;
+}
+.post-info p{
+    margin: 20px 20px 20px 50px;
+}
+.post-info p span{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.container-comments{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.comment-info{
+    width: 16vw;
+    height: 25vh;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgba(60, 72, 59, 0.89);
+    color: #0d100d;
+    border: 3px solid #0d100d;
+}
+.comment-info p{
+    margin-left: 15px;
+}
+.comment-info p span{
+    color: black;
+    text-decoration: underline;
+}

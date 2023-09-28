@@ -7,12 +7,11 @@ body{
 }
 .main-heading{
     font-size: 80px;
-    height: 15vh;
+    height: 7vh;
     text-align: center;
     text-decoration: underline;
     margin: 0;
     color: #2a3229;
-
 }
 main{
     display: flex;
@@ -28,18 +27,85 @@ main{
     justify-content: center;
     flex-direction: column;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 .user-info{
-    width: 40vw;
+    width: 90vw;
+    height: 60vh;
     background: rgba(189, 184, 184, 0.72);
     border-radius: 20px;
-    font-size: 25px;
-
+    font-size: 22px;
+    border: 3px solid rgba(60, 72, 59, 0.89);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .user-info ul li span{
     text-decoration: underline;
+    text-transform: capitalize;
+}
+.btn-posts{
+    width: 90vw;
+    height: 10vh;
+    font-size: 40px ;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(60, 72, 59, 0.89);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.btn-posts:hover{
+    border: 2px outset rgba(60, 72, 59, 0.89);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.btn-posts:disabled{
+    background: rgba(189, 184, 184, 0.72);
+    cursor: not-allowed;
+    color: #ccc;
+    border: 3px solid #ccc;
+    transform: none;
+}
+.post-titles{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
 
+}
+.title-div{
+    width: 17vw;
+    height: 8vh;
+    background: rgba(189, 184, 184, 0.72);
+    border-radius: 20px;
+    border: 2px solid #3c483b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.title-div p{
+    font-size: 18px;
+    margin: 0;
+    color: #2a3229;
+}
+.btn-see-comment{
+    width: 5vw;
+    height: 3vh;
+    font-size: 15px ;
+    border-radius: 10px;
+    border-style: outset;
+    cursor: pointer;
+    background-color: #d0d0d0;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-see-comment:hover{
+    color: white;
+    background-color: #3c483b;
 }
