@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-image: url("images/photo1.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: #2a3229;
+}
+.main-heading{
+    font-size: 80px;
+    height: 15vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    color: #2a3229;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#user-info-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.user-info{
+    width: 40vw;
+    background: rgba(189, 184, 184, 0.72);
+    border-radius: 20px;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-info ul li span{
+    text-decoration: underline;
+
+}

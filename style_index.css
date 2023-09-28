@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-image: url("images/photo1.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+.main-heading{
+    font-size: 80px;
+    height: 15vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    color: #2a3229;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#usersContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 85vh;
+}
+.user-div{
+    width: 24vw;
+    height: 15vh;
+    background: rgba(189, 184, 184, 0.72);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-div p{
+    font-size: 27px;
+    margin: 0;
+    color: #2a3229;
+}
+.user-btn{
+    width: 7vw;
+    height: 5vh;
+    font-size: 16px ;
+    border-radius: 10px;
+    border-style: outset;
+    cursor: pointer;
+    background-color: #d0d0d0;
+    font-family: 'Oswald', sans-serif;
+}
+.user-btn:hover{
+    color: white;
+    background-color: #3c483b;
+}
