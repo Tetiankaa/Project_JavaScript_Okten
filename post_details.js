@@ -16,7 +16,7 @@ function postInfo(){
     postDiv.classList.add('post-info');
 
     for (const key in post) {
-     postDiv.appendChild(createParagraphWithSpan(key,post[key]))
+     postDiv.appendChild(createParagraphWithSpan(key,post[key]));
     }
     postContainer.appendChild(postDiv);
 }
@@ -26,6 +26,7 @@ async function renderComments(){
 
     const containerComments = document.createElement('div');
     containerComments.classList.add('container-comments');
+
     const h1 = document.createElement('h1');
     h1.innerText = 'Comments';
 
@@ -37,8 +38,8 @@ async function renderComments(){
             commentDiv.appendChild(createParagraphWithSpan(key,comment[key]));
         }
         containerComments.appendChild(commentDiv);
-        postContainer.append(h1,containerComments);
     })
+    postContainer.append(h1,containerComments);
 }
 
 postInfo();

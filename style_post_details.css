@@ -25,7 +25,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 #post-container h1{
     font-size: 65px;
@@ -37,7 +37,6 @@ main{
     border-radius: 20px;
     border: 3px solid #0d100d;
 }
-
 .post-info{
     width: 60vw;
     background: rgba(189, 184, 184, 0.72);
@@ -46,7 +45,7 @@ main{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     border: 3px solid #0d100d;
 }
 .post-info p{
@@ -63,7 +62,7 @@ main{
 }
 .comment-info{
     width: 16vw;
-    height: 25vh;
+    /*height: 27vh;*/
     border-radius: 20px;
     font-size: 16px;
     background-color: rgba(60, 72, 59, 0.89);

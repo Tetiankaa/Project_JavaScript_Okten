@@ -27,7 +27,6 @@ main{
     justify-content: center;
     flex-direction: column;
     margin-top: 70px;
-    flex-wrap: wrap;
 }
 .user-info{
     width: 90vw;
@@ -75,7 +74,6 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
-
 }
 .title-div{
     width: 17vw;
@@ -83,7 +81,6 @@ main{
     background: rgba(189, 184, 184, 0.72);
     border-radius: 20px;
     border: 2px solid #3c483b;
-
     display: flex;
     align-items: center;
     justify-content: center;
