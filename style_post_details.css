@@ -62,7 +62,7 @@ main{
 }
 .comment-info{
     width: 16vw;
-    /*height: 27vh;*/
+    height: 27vh;
     border-radius: 20px;
     font-size: 16px;
     background-color: rgba(60, 72, 59, 0.89);
