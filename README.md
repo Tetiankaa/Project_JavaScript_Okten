@@ -10,7 +10,7 @@ This project was part of testing my knowledge of JavaScript at Okten School. It 
 
 # Credits
 
-This project was inspired by [{JSON} Placeholder](https://.jsonplaceholder.typicode.com/) website.
+This project was inspired by [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) website.
 
 # Getting Started
 
